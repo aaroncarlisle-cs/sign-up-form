@@ -8,13 +8,13 @@ Created as a part of the curriculum for [The Odin Project.](https://www.theodinp
 
 Features:
 ----------------
-Uses standard HTML validation for the main input fields.
+- Uses standard HTML validation for the main input fields.
 
-Uses JavaScript to validate the password input fields and while providing user feedback.
+- Uses JavaScript to validate the password input fields and while providing user feedback.
 
-Uses JavaSript to prevent the submit button from being clickable until the passwords are valid.
+- Uses JavaSript to prevent the submit button from being clickable until the passwords are valid.
 
-Form input can be seen in the URL after submission (GET method).
+- Form input can be seen in the URL after submission (GET method).
 
 Photo Credits:
 ----------------
