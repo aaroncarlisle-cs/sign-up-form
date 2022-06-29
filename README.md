@@ -6,3 +6,6 @@ https://unsplash.com/@yurii_stupen
 
 guitar-dark.jpg
 https://unsplash.com/@rebel_photo
+
+guitar-logo.svg
+https://freesvg.org/guitar-black-and-white-illustration
