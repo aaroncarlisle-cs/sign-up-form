@@ -91,19 +91,32 @@ fieldset {
     text-transform: uppercase;
 }
 .form-row input {
+    padding: 5px 15px;
+    border: 2px solid var(--main-font-color);
+    border-radius: 5px;
     font-size: 1.3rem;
+    outline: none;
+}
+input:focus {
+    border: 2px solid #1F6D9D;
+    box-shadow: 2px 2px #CCCCCC;
 }
 .form-submit {
     margin: 60px 300px 20px 100px;
 }
 button {
     font-size: 1.5rem;
-    padding: 10px 15px;
-    border: 2px solid black;
+    padding: 15px 30px;
+    border: 2px solid #1F6D9D;
     border-radius: 10px;
-    color: var(--main-bg-color-alt);
+    color: var(--main-font-color-alt);
     font-family: 'Josefin Sans', sans-serif;
-    background-color: var(--main-font-color-alt);
+    background-color: #1F6D9D;
+    box-shadow: 2px 2px #222222;
+}
+button:hover {
+    cursor: pointer;
+    border-color: var(--main-font-color-alt);
 }
 .log-in {
     flex-grow: 1;
