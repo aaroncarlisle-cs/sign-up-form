@@ -2,7 +2,7 @@
     --main-bg-color: white;
     --main-bg-color-alt: rgba(0, 0, 0, 0.95);
     --main-font-color: black;
-    --main-font-color-alt: white;
+    --main-font-color-alt: rgb(253, 244, 232);
     --guitar-light: url("../img/guitar-light.jpg");
     --guitar-dark: url("../img/guitar-dark.jpg");
 }
@@ -27,7 +27,7 @@ body {
     width: 100%;
     margin-top: 20vh;
     font-size: 4rem; 
-    color: white;
+    color: var(--main-font-color-alt);
     background-color: rgba(0, 0, 0, .5);;
 }
 .hero-text img {
@@ -53,6 +53,7 @@ main {
 .sign-up {
     padding-left: 80px;
     font-size: 1.3rem;
+    background-color: var(--main-font-color-alt);
     box-shadow: 0 10px 20px gray;
 }
 form {
@@ -108,8 +109,8 @@ footer {
     background-size: cover;
 }
 .dark img {
-    -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
-    filter: invert(100%);
+    -webkit-filter: invert(80%); /* safari 6.0 - 9.0 */
+    filter: invert(80%);
 }
 .dark .photo-credit {
     color: var(--main-font-color-alt)
@@ -120,8 +121,8 @@ footer {
 .dark .instructions {
     color: var(--main-font-color-alt);
 }
-.dark .sign-up {
-    background-color: var(--main-bg-color);
+.dark form {
+    color: var(--main-bg-color-alt);
 }
 .dark .log-in {
     color: var(--main-font-color-alt);
