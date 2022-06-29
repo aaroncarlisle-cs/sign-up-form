@@ -102,7 +102,7 @@ input:focus {
     box-shadow: 2px 2px #CCCCCC;
 }
 .error {
-    border: 2px solid red;
+    border: 2px solid red !important;
 }
 .error-msg {
     display: flex;
