@@ -21,29 +21,39 @@
     </div>
     <main>
         <div class="instructions">
-            <p>This is not a real online service! picy jalapeno bacon ipsum dolor amet kevin cow bacon, t-bone shank bresaola chicken burgdoggen spare ribs shoulder. Shoulder t-bone corned beef swine chislic. Sign up <em>now</em> to get started.</p>
+            <p>This is not a real online service! picy jalapeno bacon ipsum dolor amet kevin cow bacon, t-bone shank bresaola chicken burgdoggen spare ribs shoulder. Shoulder t-bone corned beef swine chislic. <p></p>Sign up <em>now</em> to get started.</p>
             <p>You <em>know</em> you want to.</p>
-            <p>Let's do this!</p>
         </div>
         <div class="sign-up">
             <form action="">
                 <div class="form-row">
-                    <label for="name">First Name</label>
-                    <input type="text" name="first-name" id="first-name" placeholder="Jill" required>
-                    <label for="last-name">Last Name</label>
-                    <input type="text" name="last-name" id="last-name" placeholder="Valentine" min-length="2" required>
+                    <p>Let's do this!</p>
+                    <div class="labels">
+                        <label for="name">First Name</label>
+                        <label for="last-name">Last Name</label>
+                    </div>
+                    <div class="inputs">    
+                        <input type="text" name="first-name" id="first-name" placeholder="Jill" required>
+                        <input type="text" name="last-name" id="last-name" placeholder="Valentine" min-length="2" required>
+                    </div>
                 </div>
                 <div class="form-row">
-                    <label for="e-mail">Email</label>
-                    <input type="email" name="e-mail" id="e-mail" placeholder="jill.valentine@rpd.gov" required>
-                    <label for="phone-number">Phone Number</label>
-                    <input type="tel" name="phone-number" id="phone-number" placeholder="111-222-333" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                    <div class="labels">
+                        <label for="e-mail">Email</label><label for="phone-number">Phone Number</label>
+                    </div>
+                    <div class="inputs">
+                        <input type="email" name="e-mail" id="e-mail" placeholder="jill.valentine@rpd.gov" required>
+                        <input type="tel" name="phone-number" id="phone-number" placeholder="111-222-333" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                    </div>
                 </div>
                 <div class="form-row">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" placeholder="Create a password" minlength="8" required>
-                    <label for="confirm-password">Confirm Password</label>
-                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" minlength="8" required>
+                    <div class="labels">
+                        <label for="password">Password</label><label for="confirm-password">Confirm Password</label>
+                    </div>
+                    <div class="inputs">
+                        <input type="password" name="password" id="password" placeholder="Create a password" minlength="8" required>
+                        <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" minlength="8" required>
+                    </div>
                 </div>
             </form>
         </div>
