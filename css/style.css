@@ -1,0 +1,40 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --main-bg-color: black;
+    --main-bg-color-alt: red;
+    --main-font-color: black;
+    --main-font-color-alt: red;
+    --guitar-light: url(../images/guitar-light.png);
+    --guitar-dark: url(../images/guitar-dark.png);
+}
+body {
+    height: 100vh;
+    display: flex;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 35vw;
+}
+.hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20vh;
+    font-size: 4rem; 
+}
+.hero-text img {
+    height: 10rem;
+    width: auto;
+}
+.photo-credit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+}
