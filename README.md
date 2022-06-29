@@ -10,8 +10,8 @@ Created as a part of the curriculum for [The Odin Project.](https://www.theodinp
 
 Photo Credits:
 ----------------
-#####guitar-dark.jpg
+##### guitar-dark.jpg
 [https://unsplash.com/@rebel_photo](https://unsplash.com/@rebel_photo)
 
-#####guitar-logo.svg
+##### guitar-logo.svg
 [https://freesvg.org/guitar-black-and-white-illustration](https://freesvg.org/guitar-black-and-white-illustration)
