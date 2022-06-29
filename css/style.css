@@ -109,6 +109,7 @@ input:focus {
     font-size: .8rem;
     font-weight: 500;
     padding-left: 10px;
+    padding-top: 10px;
     color: red;
     height: 10px;
 }
