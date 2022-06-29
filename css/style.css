@@ -130,6 +130,15 @@ button:hover {
     cursor: pointer;
     border-color: var(--main-font-color-alt);
 }
+.disabled {
+    border: 2px solid rgba(31, 109, 157, 0.1);
+    background-color: rgba(31, 109, 157, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+}
+.disabled:hover {
+    cursor: not-allowed;
+    border: 2px solid rgba(31, 109, 157, 0.1);
+}
 .log-in {
     flex-grow: 1;
     margin: 0px 300px 20px 100px;
