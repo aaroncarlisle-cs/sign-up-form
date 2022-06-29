@@ -1,11 +1,17 @@
-This project will be a mock sign up form with input validation.
+Sign-Up Form
+======
+Basic sign-up form created with HTML, CSS, and JavaScript.
+
+Uses JavaScript to validate the password input fields.
+
+[Live Demo](https://aaroncarlisle-cs.github.io/sign-up-form/)
+
+Created as a part of [The Odin Project](https://www.theodinproject.com/)
 
 Photo Credits:
-guitar-light.jpg
-https://unsplash.com/@yurii_stupen
-
+----------------
 guitar-dark.jpg
-https://unsplash.com/@rebel_photo
+[https://unsplash.com/@rebel_photo](https://unsplash.com/@rebel_photo)
 
 guitar-logo.svg
-https://freesvg.org/guitar-black-and-white-illustration
+[https://freesvg.org/guitar-black-and-white-illustration](https://freesvg.org/guitar-black-and-white-illustration)
