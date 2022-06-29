@@ -63,19 +63,19 @@ main {
     margin: var(--main-margin);
     font-size: clamp(1.1rem, 1.6rem, 2rem)
 }
+form {
+    padding: 20px 0 10px 0;
+}
 .sign-up {
-    padding-left: 80px;
+    padding: 20px 0 20px 80px;
     font-size: 1.3rem;
     color: var(--main-font-color);
     background-color: var(--main-font-color-alt);
     box-shadow: 0 10px 20px gray;
 }
-form {
-    margin: 20px 0;
-    width: 60%;
-}
 fieldset {
     border: none;
+    width: 60%;
 }
 .form-row {
     display: flex;
@@ -100,6 +100,17 @@ fieldset {
 input:focus {
     border: 2px solid #1F6D9D;
     box-shadow: 2px 2px #CCCCCC;
+}
+.error {
+    border: 2px solid red;
+}
+.error-msg {
+    display: flex;
+    font-size: .8rem;
+    font-weight: 500;
+    padding-left: 10px;
+    color: red;
+    height: 10px;
 }
 .form-submit {
     margin: 60px 300px 20px 100px;
