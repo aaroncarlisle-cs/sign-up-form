@@ -1,6 +1,6 @@
 :root {
     --main-bg-color: white;
-    --main-bg-color-alt: rgb(3, 3, 3);
+    --main-bg-color-alt: rgba(0, 0, 0, 0.95);
     --main-font-color: black;
     --main-font-color-alt: white;
     --guitar-light: url("../img/guitar-light.jpg");
@@ -47,7 +47,7 @@ main {
     width: 65vw;
 }
 .instructions {
-    margin: calc(10vh + 20px) 300px 20px 100px;
+    margin: calc(6vh + 20px) 300px 20px 100px;
     font-size: 1.7rem;
 }
 .sign-up {
@@ -55,19 +55,24 @@ main {
     font-size: 1.3rem;
     box-shadow: 0 10px 20px gray;
 }
+.form-row p {
+    margin: 0;
+    margin-bottom: 20px;
+}
 .form-row {
-   
+   padding: 20px 0;
 }
 .form-submit {
-    margin: 40px 300px 20px 100px;
+    margin: 60px 300px 20px 100px;
 }
 button {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 5px 10px;
 }
 .log-in {
-    margin: 0px 300px 20px 100px;
     flex-grow: 1;
+    margin: 0px 300px 20px 100px;
+    font-size: 1.3rem;
 }
 footer {
     display: flex;
