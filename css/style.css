@@ -1,17 +1,17 @@
 :root {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    --main-bg-color: black;
-    --main-bg-color-alt: red;
+    --main-bg-color: white;
+    --main-bg-color-alt: rgb(3, 3, 3);
     --main-font-color: black;
-    --main-font-color-alt: red;
-    --guitar-light: url(../images/guitar-light.png);
-    --guitar-dark: url(../images/guitar-dark.png);
+    --main-font-color-alt: white;
+    --guitar-light: url("../img/guitar-light.jpg");
+    --guitar-dark: url("../img/guitar-dark.jpg");
 }
 body {
     height: 100vh;
     display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .hero {
     display: flex;
@@ -27,6 +27,8 @@ body {
     width: 100%;
     margin-top: 20vh;
     font-size: 4rem; 
+    color: white;
+    background-color: rgba(0, 0, 0, .5);;
 }
 .hero-text img {
     height: 10rem;
@@ -53,6 +55,9 @@ main {
     font-size: 1.3rem;
     box-shadow: 0 10px 20px gray;
 }
+.form-row {
+   
+}
 .form-submit {
     margin: 40px 300px 20px 100px;
 }
@@ -69,4 +74,38 @@ footer {
     justify-content: center;
     margin: 0px 300px 0px 100px;
     height: 50px;
+}
+
+/* Light style */
+.light .hero {
+    background-image: var(--guitar-light);
+    background-size: cover;
+}
+
+/* Dark style */
+.dark .hero {
+    background-image: var(--guitar-dark);
+    background-size: cover;
+}
+.dark img {
+    -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+    filter: invert(100%);
+}
+.dark .photo-credit {
+    color: var(--main-font-color-alt)
+}
+.dark main {
+    background-color: var(--main-bg-color-alt);
+}
+.dark .instructions {
+    color: var(--main-font-color-alt);
+}
+.dark .sign-up {
+    background-color: var(--main-bg-color);
+}
+.dark .log-in {
+    color: var(--main-font-color-alt);
+}
+.dark footer {
+    color: var(--main-font-color-alt)
 }
