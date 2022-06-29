@@ -1,9 +1,11 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@300&display=swap');
 :root {
     --main-bg-color: white;
     --main-bg-color-alt: rgba(0, 0, 0, 0.95);
     --main-font-color: black;
     --main-font-color-alt: rgb(253, 244, 232);
+    --main-margin: 60px clamp(20px, 10rem, 300px) 20px 100px;
     --guitar-light: url("../img/guitar-light.jpg");
     --guitar-dark: url("../img/guitar-dark.jpg");
 }
@@ -58,8 +60,8 @@ main {
     font-family: 'Poppins', sans-serif;
 }
 .instructions {
-    margin: 40px 300px 20px 100px;
-    font-size: 1.6rem;
+    margin: var(--main-margin);
+    font-size: clamp(1.1rem, 1.6rem, 2rem)
 }
 .sign-up {
     padding-left: 80px;
@@ -115,4 +117,31 @@ footer {
     height: 50px;
     font-family: 'Josefin Sans', sans-serif;
 }
-
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: var(--main-bg-color-alt);
+        flex-direction: column;
+        border: 2px solid red;
+        flex-wrap: nowrap;
+    }
+    .hero {
+        width: 100vw;
+    }
+    .hero .hero-text {
+        font-size: clamp(1.2rem, 1.5rem, 1.6rem);
+        margin-top: 50px;
+    }
+    .photo-credit {
+        height: auto;
+        padding: 10px;
+    }
+    main {
+        width: 100vw;
+    }
+    .instructions {
+        font-size: clamp(1.2rem, 1.5rem, 1.6rem);
+    }
+    .log-in {
+        padding-bottom: 20px;;
+    }
+}
