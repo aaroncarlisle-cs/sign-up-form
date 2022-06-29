@@ -83,10 +83,10 @@ fieldset {
     display: flex;
     flex-direction: row;
     width: 50%;
-    text-transform: uppercase;
 }
 .form-row label {
     font-size: 0.8rem;
+    text-transform: uppercase;
 }
 .form-row input {
     font-size: 1.3rem;
