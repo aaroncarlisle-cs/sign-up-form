@@ -50,6 +50,13 @@ body {
     height: 50px;
     font-family: 'Josefin Sans', sans-serif;
 }
+a, a:visited {
+    color:rgb(253, 244, 232);
+    padding: 0 5px;
+}
+a:hover {
+    color:rgba(31, 109, 157)
+}
 main {
     display: flex;
     flex-direction: column;
