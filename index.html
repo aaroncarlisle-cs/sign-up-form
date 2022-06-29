@@ -37,8 +37,8 @@
                         <label for="last-name">*Last Name</label>
                     </div>
                     <div class="form-row">
-                        <input type="text" name="first-name" id="first-name" placeholder="Jill" minlength="2" required>
-                        <input type="text" name="last-name" id="last-name" placeholder="Valentine" minlength="2" required>
+                        <input type="text" name="first-name" id="first-name" placeholder="Jill" minlength="2" title="Please enter your first name" required>
+                        <input type="text" name="last-name" id="last-name" placeholder="Valentine" minlength="2" title="Please enter your last name" required>
                     </div>
                 </fieldset>
                 <fieldset>
@@ -47,8 +47,8 @@
                         <label for="phone-number">Phone Number</label>
                     </div>
                     <div class="form-row">
-                        <input type="email" name="email" id="email" placeholder="jill.valentine@rpd.gov" required>
-                        <input type="tel" name="phone-number" id="phone-number" placeholder="111-222-333" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                        <input type="email" name="email" id="email" placeholder="jill.valentine@rpd.gov" title="Please enter a valid email address" required>
+                        <input type="tel" name="phone-number" id="phone-number" placeholder="111-222-333" title="Please enter a valid phone number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
                     </div>
                 </fieldset>
                 <fieldset>
@@ -57,8 +57,8 @@
                         <label for="confirm-password">*Confirm Password</label>
                     </div>
                     <div class="form-row">
-                        <input type="password" name="password" id="password" placeholder="Create a password" minlength="8" required>
-                        <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" minlength="8" required>
+                        <input type="password" name="password" id="password" placeholder="Create a password" minlength="8" title="Must be at least 8 characters" required>
+                        <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" minlength="8" title="Passwords must match" required>
                     </div>
                     <div class="error-msg">
                        
