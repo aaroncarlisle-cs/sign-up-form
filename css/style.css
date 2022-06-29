@@ -51,16 +51,31 @@ main {
     font-size: 1.7rem;
 }
 .sign-up {
-    padding: 20px 300px 20px 100px;
+    padding-left: 80px;
     font-size: 1.3rem;
     box-shadow: 0 10px 20px gray;
 }
-.form-row p {
-    margin: 0;
-    margin-bottom: 20px;
+form {
+    margin: 20px 0;
+    width: 60%;
+}
+fieldset {
+    border: none;
 }
 .form-row {
-   padding: 20px 0;
+    display: flex;
+    gap: 50px;
+}
+.form-row label, .form-row input  {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.form-row label {
+    font-size: 0.8rem;
+}
+.form-row input {
+    font-size: 1.3rem;
 }
 .form-submit {
     margin: 60px 300px 20px 100px;
